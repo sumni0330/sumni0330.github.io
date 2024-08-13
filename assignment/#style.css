@@ -1,0 +1,16 @@
+@media screen and (min-width: 980px) {
+  .t-records {
+    opacity: 0;
+  }
+
+  .t-records_animated {
+    -webkit-transition: opacity ease-in-out 0.2s;
+    -moz-transition: opacity ease-in-out 0.2s;
+    -o-transition: opacity ease-in-out 0.2s;
+    transition: opacity ease-in-out 0.2s;
+  }
+
+  .t-records.t-records_visible {
+    opacity: 1;
+  }
+}
