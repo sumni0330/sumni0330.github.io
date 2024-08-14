@@ -1,0 +1,27 @@
+body {
+  /* padding: 40px; */
+  display: flex;
+  /* 같은 라인에 넣고 싶을떄 오직 차일드만 그랜드 차일드안됨*/
+}
+p {
+  border: 1px solid red;
+  /* P> 얼마나 큰지에 따라 저절로 조절됨 */
+  /* width: 200px; */
+  /* min-height: 10px; */
+  /* P> 크기를 정해주면 딱 그 크기로만 min- 추가하면 더 커짐*/
+  width: 300px;
+  height: 150px;
+  text-align: center;
+  line-height: 50px;
+  /* padding: 20px; */
+  /* center로 맞출수 있음 */
+  background-color: rgb(208, 193, 208);
+  margin: auto;
+  /* > margin을 자동으로 크기 조절 해줌 웹이든 모바일이든 */
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+span {
+  font-weight: bold;
+  display: block;
+}

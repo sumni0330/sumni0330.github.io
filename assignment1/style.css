@@ -1,0 +1,57 @@
+body {
+  background-color: #001489;
+  /* display: flex;
+  margin: 2rem; 
+  justify-content: center; 
+  align-items: flex-start; */
+}
+
+h1 {
+  padding: 100px;
+  text-align: center;
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5rem;
+  color: #e5e5cb;
+  font-size: clamp(1.5rem, 3vw + 1rem, 5rem);
+}
+
+h2 {
+  text-align: end;
+}
+#my-heading {
+  color: black;
+}
+
+.my-class {
+  color: rgb(144, 49, 234);
+}
+
+p,
+h3 {
+  color: yellow;
+}
+
+p > strong {
+  color: black;
+}
+
+p {
+  color: magenta;
+  border: 1px solid red;
+  padding: 30px;
+  background-color: rgba(255, 238, 232, 0.819);
+}
+article {
+  text-align: center;
+  border: 1px dashed lime;
+  padding: 10px;
+  background-color: aqua;
+}
+
+.padding-style {
+  padding: 10px;
+  border: solid red;
+}
