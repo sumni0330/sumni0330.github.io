@@ -1,57 +1,272 @@
 body {
-  background-color: #001489;
-  /* display: flex;
-  margin: 2rem; 
-  justify-content: center; 
-  align-items: flex-start; */
+  background-color: #042959;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("image_172.png"), url("image_171.png"),
+    url("image_173.png");
+  background-color: rgba(0, 0, 0, 0.5); /* 필요에 따라 조정 */
+  background-size: 20%, 30%, 40%;
+  background-position: left top, right top, center bottom;
+  position: relative; /* h2의 절대 위치 설정을 위한 기준 */
 }
 
 h1 {
-  padding: 100px;
   text-align: center;
   font-family: "Fraunces", serif;
-  font-optical-sizing: auto;
-  font-style: normal;
   font-weight: 900;
-  font-size: 5rem;
-  color: #e5e5cb;
-  font-size: clamp(1.5rem, 3vw + 1rem, 5rem);
+  color: #c6d93b;
+  font-size: clamp(3rem, 3vw + 1rem, 8rem);
+  margin: 0 0 20px 0;
+  padding: 20px; /* 패딩은 이 한 줄만 사용 */
+  text-shadow: 6px 8px 10px rgb(0, 0, 0); /* 텍스트에 어두운 그림자 추가 */
 }
 
 h2 {
-  text-align: end;
-}
-#my-heading {
-  color: black;
+  position: absolute; /* 절대 위치를 사용 */
+  right: 20px; /* 오른쪽에서 20px 떨어진 위치 */
+  bottom: 20px; /* 아래에서 20px 떨어진 위치 */
+  margin: 0;
+  color: #000000;
+  line-height: 1.2;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  padding: 20px;
 }
 
-.my-class {
-  color: rgb(144, 49, 234);
+h2 span {
+  display: block; /* 각 요소를 블록 요소로 만들어서 두 줄로 표현합니다. */
+  font-size: 18px;
+  margin-top: 5px;
 }
 
-p,
+.collage-section {
+  position: relative;
+  width: 100%;
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.collage-img {
+  position: absolute;
+  width: 200px;
+  height: auto;
+  opacity: 0.7;
+  mix-blend-mode: multiply;
+  max-width: 100%;
+}
+
+/* Section 1 */
+/* Section 1 */
+.img1 {
+  top: -20px;
+  left: -20px;
+  transform: rotate(-10deg);
+}
+
+.img2 {
+  bottom: -20px;
+  right: -20px;
+  transform: rotate(10deg);
+}
+
+/* Section 2 */
+.img3 {
+  top: 30px;
+  right: 30px;
+  transform: rotate(15deg);
+}
+
+.img4 {
+  bottom: 50px;
+  left: 50px;
+  transform: rotate(-15deg);
+}
+
+/* Section 3 */
+.img5 {
+  top: -40px;
+  left: 70%;
+  transform: translateX(-50%) rotate(-20deg);
+}
+
+.img6 {
+  bottom: -50px;
+  right: 10%;
+  transform: rotate(20deg);
+}
+
+/* Section 4 */
+.img7 {
+  top: 20px;
+  left: 10%;
+  transform: rotate(-5deg);
+}
+
+.img8 {
+  bottom: 20px;
+  right: -10%;
+  transform: rotate(10deg);
+}
+
+/* Section 5 */
+.img9 {
+  bottom: -10px;
+  left: -30px;
+  transform: rotate(5deg);
+}
+
+.img10 {
+  top: -10px;
+  right: 0px;
+  transform: rotate(-10deg);
+}
+
+.img11 {
+  bottom: -20px;
+  left: 50%;
+  transform: rotate(15deg);
+}
+
+.img12 {
+  top: 250px;
+  right: 10px;
+  transform: rotate(-5deg);
+}
+
+/* Section 6 */
+.img13 {
+  top: 10px;
+  left: 20%;
+  transform: rotate(15deg);
+}
+
+.img14 {
+  bottom: 20px;
+  right: 15%;
+  transform: rotate(-5deg);
+}
+
+/* Section 7 */
+.img15 {
+  top: -50px;
+  left: 40%;
+  transform: translateX(-50%) rotate(10deg);
+}
+
+.img16 {
+  bottom: 50px;
+  right: 5%;
+  transform: rotate(-15deg);
+}
+
+.img17 {
+  top: -20px;
+  left: 10%;
+  transform: rotate(5deg);
+}
+
+.img18 {
+  bottom: 40px;
+  right: 25%;
+  transform: rotate(-10deg);
+}
+
+/* Section 8 */
+.img19 {
+  top: -20px;
+  left: 60%;
+  transform: translateX(-50%) rotate(-5deg);
+}
+
+.img20 {
+  bottom: -40px;
+  right: 30px;
+  transform: rotate(10deg);
+}
+
+/* Section 9 */
+.img21 {
+  top: 20px;
+  left: 50px;
+  transform: rotate(15deg);
+}
+
+.img22 {
+  bottom: 50px;
+  right: 20px;
+  transform: rotate(-15deg);
+}
+
+/* Section 10 */
+.img23 {
+  top: -20px;
+  right: 30px;
+  transform: rotate(-10deg);
+}
+
+.img24 {
+  bottom: 30px;
+  left: 40%;
+  transform: translateX(-50%) rotate(10deg);
+}
+
+/* Section 11 */
+.img25 {
+  top: 20px;
+  left: 20px;
+  transform: rotate(5deg);
+}
+
+.img26 {
+  bottom: 40px;
+  right: 50px;
+  transform: rotate(-10deg);
+}
+
+.text-block {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 600px;
+}
+
 h3 {
-  color: yellow;
-}
-
-p > strong {
-  color: black;
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #ffdd57;
 }
 
 p {
-  color: magenta;
-  border: 1px solid red;
-  padding: 30px;
-  background-color: rgba(255, 238, 232, 0.819);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin: 0;
 }
-article {
-  text-align: center;
-  border: 1px dashed lime;
-  padding: 10px;
-  background-color: aqua;
-}
-
-.padding-style {
-  padding: 10px;
-  border: solid red;
+ol {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  padding-left: 1.5rem;
 }
