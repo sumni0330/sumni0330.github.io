@@ -10,10 +10,10 @@ header {
   height: 100vh;
   background-image: url("image_172.png"), url("image_171.png"),
     url("image_173.png");
-  background-color: rgba(0, 0, 0, 0.5); /* 필요에 따라 조정 */
+  background-color: rgba(0, 0, 0, 0.5);
   background-size: 20%, 30%, 40%;
   background-position: left top, right top, center bottom;
-  position: relative; /* h2의 절대 위치 설정을 위한 기준 */
+  position: relative;
 }
 
 h1 {
@@ -23,14 +23,14 @@ h1 {
   color: #c6d93b;
   font-size: clamp(3rem, 3vw + 1rem, 8rem);
   margin: 0 0 20px 0;
-  padding: 20px; /* 패딩은 이 한 줄만 사용 */
-  text-shadow: 6px 8px 10px rgb(0, 0, 0); /* 텍스트에 어두운 그림자 추가 */
+  padding: 20px;
+  text-shadow: 6px 8px 10px rgb(0, 0, 0);
 }
 
 h2 {
-  position: absolute; /* 절대 위치를 사용 */
-  right: 20px; /* 오른쪽에서 20px 떨어진 위치 */
-  bottom: 20px; /* 아래에서 20px 떨어진 위치 */
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
   margin: 0;
   color: #000000;
   line-height: 1.2;
@@ -43,7 +43,7 @@ h2 {
 }
 
 h2 span {
-  display: block; /* 각 요소를 블록 요소로 만들어서 두 줄로 표현합니다. */
+  display: block;
   font-size: 18px;
   margin-top: 5px;
 }
@@ -73,8 +73,6 @@ h2 span {
   max-width: 100%;
 }
 
-/* Section 1 */
-/* Section 1 */
 .img1 {
   top: -20px;
   left: -20px;
@@ -87,7 +85,6 @@ h2 span {
   transform: rotate(10deg);
 }
 
-/* Section 2 */
 .img3 {
   top: 30px;
   right: 30px;
@@ -100,7 +97,6 @@ h2 span {
   transform: rotate(-15deg);
 }
 
-/* Section 3 */
 .img5 {
   top: -40px;
   left: 70%;
@@ -113,7 +109,6 @@ h2 span {
   transform: rotate(20deg);
 }
 
-/* Section 4 */
 .img7 {
   top: 20px;
   left: 10%;
@@ -126,7 +121,6 @@ h2 span {
   transform: rotate(10deg);
 }
 
-/* Section 5 */
 .img9 {
   bottom: -10px;
   left: -30px;
@@ -151,7 +145,6 @@ h2 span {
   transform: rotate(-5deg);
 }
 
-/* Section 6 */
 .img13 {
   top: 10px;
   left: 20%;
@@ -164,7 +157,6 @@ h2 span {
   transform: rotate(-5deg);
 }
 
-/* Section 7 */
 .img15 {
   top: -50px;
   left: 40%;
@@ -189,7 +181,6 @@ h2 span {
   transform: rotate(-10deg);
 }
 
-/* Section 8 */
 .img19 {
   top: -20px;
   left: 60%;
@@ -202,7 +193,6 @@ h2 span {
   transform: rotate(10deg);
 }
 
-/* Section 9 */
 .img21 {
   top: 20px;
   left: 50px;
@@ -215,7 +205,6 @@ h2 span {
   transform: rotate(-15deg);
 }
 
-/* Section 10 */
 .img23 {
   top: -20px;
   right: 30px;
@@ -228,7 +217,6 @@ h2 span {
   transform: translateX(-50%) rotate(10deg);
 }
 
-/* Section 11 */
 .img25 {
   top: 20px;
   left: 20px;
